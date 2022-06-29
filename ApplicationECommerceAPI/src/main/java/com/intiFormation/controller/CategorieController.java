@@ -33,6 +33,8 @@ public class CategorieController {
 	/*@Autowired
 	IproduitService pService;*/
 	
+	// Commentaire pour GitHub
+	
 	@GetMapping("/categorie")
 	public List<Categorie> AfficherCategorie(Model model) {
 		List<Categorie> ListC = cService.selectAll();
